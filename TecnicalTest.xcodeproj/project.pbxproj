@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -99,7 +99,6 @@
 				846E7ABEAFF7FB21A09B0824 /* Pods-TecnicalTestTests.debug.xcconfig */,
 				BCF23942DBEFF5514F0DCC92 /* Pods-TecnicalTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,8 +127,12 @@
 		5D3DB9CD25E9ABEC0083003A /* TecnicalTest */ = {
 			isa = PBXGroup;
 			children = (
-				5D3DB9CE25E9ABEC0083003A /* AppDelegate.swift */,
-				5D3DB9D025E9ABEC0083003A /* SceneDelegate.swift */,
+				5D3DBA1725E9B0B30083003A /* App */,
+				5D3DBA1C25E9B1180083003A /* Extension */,
+				5D3DBA1A25E9B0C60083003A /* Repository */,
+				5D3DBA1825E9B0B90083003A /* View */,
+				5D3DBA1B25E9B0EC0083003A /* ViewModel */,
+				5D3DBA1925E9B0BF0083003A /* Model */,
 				5D3DB9D225E9ABEC0083003A /* ViewController.swift */,
 				5D3DB9D725E9ABED0083003A /* Assets.xcassets */,
 				5D3DB9D925E9ABED0083003A /* LaunchScreen.storyboard */,
@@ -154,6 +157,50 @@
 				5D3DB9F225E9ABED0083003A /* Info.plist */,
 			);
 			path = TecnicalTestUITests;
+			sourceTree = "<group>";
+		};
+		5D3DBA1725E9B0B30083003A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DB9CE25E9ABEC0083003A /* AppDelegate.swift */,
+				5D3DB9D025E9ABEC0083003A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D3DBA1825E9B0B90083003A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D3DBA1925E9B0BF0083003A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D3DBA1A25E9B0C60083003A /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5D3DBA1B25E9B0EC0083003A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D3DBA1C25E9B1180083003A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8D6E2B18109F7EFF4460DB64 /* Frameworks */ = {
