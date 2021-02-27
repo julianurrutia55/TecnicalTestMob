@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BreedRepository : BaseRepositoryRemote, BreedRemoteRepositoryProtocol {
+class BreedRemoteRepository : BaseRepositoryRemote, BreedRemoteRepositoryProtocol {
     func getBreedList(completion: @escaping (Result<[Breed], NetworkError>) -> Void) {
         let endPoint = Constantes.fetchListOfBreeds
         
