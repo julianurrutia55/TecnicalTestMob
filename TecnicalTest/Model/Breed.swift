@@ -6,6 +6,6 @@
 //
 
 import Foundation
-struct Cat : Decodable {
+struct Breed : Decodable {
     
 }

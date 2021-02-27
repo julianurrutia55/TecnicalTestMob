@@ -84,7 +84,7 @@
 		41AB5AA0A785CC5654B214425F506900 /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
 		4BB8112D90444327849585ED3FA07AFF /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
 		4CF172FAA6448129CD4FA2F85501BCEB /* Pods-TecnicalTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TecnicalTest-frameworks.sh"; sourceTree = "<group>"; };
-		519F61FCE28E951EB1F0E60C7A4ECE6B /* Pods_TecnicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TecnicalTestTests.framework; path = "Pods-TecnicalTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		519F61FCE28E951EB1F0E60C7A4ECE6B /* Pods_TecnicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AA54FDF1E0B576C4FCFDF8F1906E13 /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
 		5D6DEE0A697C133636D2B1B9E23B8603 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
 		60973D5D4D11F950763CD736985562E6 /* Pods-TecnicalTest-TecnicalTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TecnicalTest-TecnicalTestUITests-Info.plist"; sourceTree = "<group>"; };
@@ -102,12 +102,12 @@
 		87C00CF82E54EA18007E8A491373213F /* Pods-TecnicalTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TecnicalTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88E0D3A61D95664661A595974DEB023F /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
 		89086DCE24A417EF0D48BDA68D333D8C /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
-		8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swinject.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		938D148A2E9D232C8262BDD6A60991D8 /* Pods-TecnicalTest-TecnicalTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TecnicalTest-TecnicalTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93D61FDCC1A37DABC6532F8FB4CB8D43 /* InstanceWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceWrapper.swift; path = Sources/InstanceWrapper.swift; sourceTree = "<group>"; };
 		97E5369B081ABB71B76663FBB1B5830E /* Pods-TecnicalTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TecnicalTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9AB5C574FAFEAD16EC369BE76BC8B08B /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC1DCF7D0AA3EDF7C20C16C15CF857E /* Pods-TecnicalTest-TecnicalTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TecnicalTest-TecnicalTestUITests-dummy.m"; sourceTree = "<group>"; };
 		A09968FBC4A289F8035D7176D2DE0F24 /* Swinject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.release.xcconfig; sourceTree = "<group>"; };
 		A4F6234A51DF4F20BB2A343E78B22E17 /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 		C8E89E7968474C4C502D883ED78C0051 /* Pods-TecnicalTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TecnicalTestTests-umbrella.h"; sourceTree = "<group>"; };
 		C978EB077E5FE411426E5798253F94D4 /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
 		C9E950EC6890025945582F537B55B921 /* Pods-TecnicalTest-TecnicalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TecnicalTest-TecnicalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAA8943E6A7C421068C6D27D1EFFE522 /* Pods_TecnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TecnicalTest.framework; path = "Pods-TecnicalTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE9469FE4C8F68908EC9CEAD0746607 /* Pods_TecnicalTest_TecnicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TecnicalTest_TecnicalTestUITests.framework; path = "Pods-TecnicalTest-TecnicalTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA8943E6A7C421068C6D27D1EFFE522 /* Pods_TecnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE9469FE4C8F68908EC9CEAD0746607 /* Pods_TecnicalTest_TecnicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTest_TecnicalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F6286BD189090F8430A13015CA5B9E /* Swinject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swinject-Info.plist"; sourceTree = "<group>"; };
 		D90F26846634F9E8B1141F178DF010A5 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
 		DAB5698E430A0A9CF5D471C3F9C0E954 /* Swinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.debug.xcconfig; sourceTree = "<group>"; };
@@ -311,7 +311,6 @@
 				749F4AC3431688388EB876C11FE9034A /* UnavailableItems.swift */,
 				D3B2CFFC0F48C7B59840FDBA03AB7E24 /* Support Files */,
 			);
-			name = Swinject;
 			path = Swinject;
 			sourceTree = "<group>";
 		};
@@ -446,7 +445,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1230;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -596,7 +595,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +632,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swinject/Swinject-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -679,6 +678,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -701,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -739,6 +739,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -764,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -793,7 +794,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -831,7 +832,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TecnicalTest-TecnicalTestUITests/Pods-TecnicalTest-TecnicalTestUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -868,7 +869,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TecnicalTest-TecnicalTestUITests/Pods-TecnicalTest-TecnicalTestUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -906,7 +907,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TecnicalTest/Pods-TecnicalTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -943,7 +944,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TecnicalTest/Pods-TecnicalTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -981,7 +982,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swinject/Swinject-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

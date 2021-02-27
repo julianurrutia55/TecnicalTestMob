@@ -15,7 +15,14 @@
 		5D3DB9DB25E9ABED0083003A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3DB9D925E9ABED0083003A /* LaunchScreen.storyboard */; };
 		5D3DB9E625E9ABED0083003A /* TecnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DB9E525E9ABED0083003A /* TecnicalTestTests.swift */; };
 		5D3DB9F125E9ABED0083003A /* TecnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DB9F025E9ABED0083003A /* TecnicalTestUITests.swift */; };
-		5D3DBA2125E9B2130083003A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA2025E9B2130083003A /* Cat.swift */; };
+		5D3DBA2125E9B2130083003A /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA2025E9B2130083003A /* Breed.swift */; };
+		5D3DBA2625E9B2D50083003A /* RepositoriesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA2525E9B2D50083003A /* RepositoriesModule.swift */; };
+		5D3DBA3A25E9B58A0083003A /* BaseRepositoryRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA3925E9B58A0083003A /* BaseRepositoryRemote.swift */; };
+		5D3DBA3F25E9B5CF0083003A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA3E25E9B5CF0083003A /* NetworkError.swift */; };
+		5D3DBA4425E9B5F80083003A /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA4325E9B5F80083003A /* Constantes.swift */; };
+		5D3DBA5125E9B87B0083003A /* BreedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA5025E9B87B0083003A /* BreedRepository.swift */; };
+		5D3DBA5925E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */; };
+		5D3DBA6825E9BB760083003A /* BreedInitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */; };
 		8489AE5CCA7658D9ABE5BE9B /* Pods_TecnicalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB56DA835AE0B906BC43023 /* Pods_TecnicalTestTests.framework */; };
 		9082534FCB3AAAA11068AE2D /* Pods_TecnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D12D25F7C00EB43E28F00 /* Pods_TecnicalTest.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +62,14 @@
 		5D3DB9EC25E9ABED0083003A /* TecnicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TecnicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3DB9F025E9ABED0083003A /* TecnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecnicalTestUITests.swift; sourceTree = "<group>"; };
 		5D3DB9F225E9ABED0083003A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D3DBA2025E9B2130083003A /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		5D3DBA2025E9B2130083003A /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		5D3DBA2525E9B2D50083003A /* RepositoriesModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesModule.swift; sourceTree = "<group>"; };
+		5D3DBA3925E9B58A0083003A /* BaseRepositoryRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepositoryRemote.swift; sourceTree = "<group>"; };
+		5D3DBA3E25E9B5CF0083003A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5D3DBA4325E9B5F80083003A /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		5D3DBA5025E9B87B0083003A /* BreedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRepository.swift; sourceTree = "<group>"; };
+		5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRemoteRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInitRepository.swift; sourceTree = "<group>"; };
 		6CB56DA835AE0B906BC43023 /* Pods_TecnicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFBC66FBC9421E193AF5A8 /* Pods_TecnicalTest_TecnicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTest_TecnicalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E7ABEAFF7FB21A09B0824 /* Pods-TecnicalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,14 +143,13 @@
 		5D3DB9CD25E9ABEC0083003A /* TecnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				5D3DB9D725E9ABED0083003A /* Assets.xcassets */,
 				5D3DBA1725E9B0B30083003A /* App */,
 				5D3DBA1C25E9B1180083003A /* Extension */,
 				5D3DBA1A25E9B0C60083003A /* Repository */,
 				5D3DBA1825E9B0B90083003A /* View */,
 				5D3DBA1B25E9B0EC0083003A /* ViewModel */,
 				5D3DBA1925E9B0BF0083003A /* Model */,
-				5D3DB9D225E9ABEC0083003A /* ViewController.swift */,
-				5D3DB9D725E9ABED0083003A /* Assets.xcassets */,
 				5D3DB9D925E9ABED0083003A /* LaunchScreen.storyboard */,
 				5D3DB9DC25E9ABED0083003A /* Info.plist */,
 			);
@@ -166,6 +179,7 @@
 			children = (
 				5D3DB9CE25E9ABEC0083003A /* AppDelegate.swift */,
 				5D3DB9D025E9ABEC0083003A /* SceneDelegate.swift */,
+				5D3DBA2525E9B2D50083003A /* RepositoriesModule.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -173,6 +187,7 @@
 		5D3DBA1825E9B0B90083003A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5D3DB9D225E9ABEC0083003A /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,7 +195,7 @@
 		5D3DBA1925E9B0BF0083003A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5D3DBA2025E9B2130083003A /* Cat.swift */,
+				5D3DBA2025E9B2130083003A /* Breed.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +203,9 @@
 		5D3DBA1A25E9B0C60083003A /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				5D3DBA2D25E9B5550083003A /* Base */,
+				5D3DBA4F25E9B85E0083003A /* Breeds */,
+				5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -204,6 +222,25 @@
 			children = (
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		5D3DBA2D25E9B5550083003A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DBA3925E9B58A0083003A /* BaseRepositoryRemote.swift */,
+				5D3DBA3E25E9B5CF0083003A /* NetworkError.swift */,
+				5D3DBA4325E9B5F80083003A /* Constantes.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5D3DBA4F25E9B85E0083003A /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DBA5025E9B87B0083003A /* BreedRepository.swift */,
+				5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */,
+			);
+			path = Breeds;
 			sourceTree = "<group>";
 		};
 		8D6E2B18109F7EFF4460DB64 /* Frameworks */ = {
@@ -453,10 +490,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3DBA2125E9B2130083003A /* Cat.swift in Sources */,
+				5D3DBA2125E9B2130083003A /* Breed.swift in Sources */,
+				5D3DBA6825E9BB760083003A /* BreedInitRepository.swift in Sources */,
+				5D3DBA3F25E9B5CF0083003A /* NetworkError.swift in Sources */,
+				5D3DBA5925E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift in Sources */,
 				5D3DB9D325E9ABEC0083003A /* ViewController.swift in Sources */,
+				5D3DBA2625E9B2D50083003A /* RepositoriesModule.swift in Sources */,
 				5D3DB9CF25E9ABEC0083003A /* AppDelegate.swift in Sources */,
+				5D3DBA4425E9B5F80083003A /* Constantes.swift in Sources */,
+				5D3DBA3A25E9B58A0083003A /* BaseRepositoryRemote.swift in Sources */,
 				5D3DB9D125E9ABEC0083003A /* SceneDelegate.swift in Sources */,
+				5D3DBA5125E9B87B0083003A /* BreedRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
