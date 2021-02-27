@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func setUpView(windowScene: UIWindowScene){
         let window = UIWindow(windowScene: windowScene)
         let navController = UINavigationController()
-        let viewController = ViewController(breedViewModel: (AppDelegate.shared?.dependencyInjector.container.resolve(BreedViewModel.self)!)!)
+        let viewController = BreedViewController(breedViewModel: (AppDelegate.shared?.dependencyInjector.container.resolve(BreedViewModel.self)!)!)
         navController.viewControllers = [viewController]
         window.rootViewController = navController
         self.window = window

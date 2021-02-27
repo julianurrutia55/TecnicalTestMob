@@ -39,8 +39,8 @@ class RepositoriesModule{
         }
         
         //view
-        container.register(ViewController.self) { r in
-            ViewController(breedViewModel: r.resolve(BreedViewModel.self)!)
+        container.register(BreedViewController.self) { r in
+            BreedViewController(breedViewModel: r.resolve(BreedViewModel.self)!)
         }
     }
     
