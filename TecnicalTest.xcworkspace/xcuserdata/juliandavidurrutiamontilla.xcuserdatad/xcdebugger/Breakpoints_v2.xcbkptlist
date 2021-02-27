@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "01BA76FE-6531-4077-9297-9CD5C0CB7947"
+            uuid = "2A463B12-1A33-4AAE-8E39-DFE842043A6B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TecnicalTest/ViewModel/BreedViewModel.swift"
+            filePath = "TecnicalTest/App/RepositoriesModule.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "getDataListBreed()"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "registerDependencies()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

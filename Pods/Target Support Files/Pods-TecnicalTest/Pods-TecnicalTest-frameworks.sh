@@ -199,6 +199,9 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework"
 fi
+if [[ "$CONFIGURATION" == "Mocks" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework"
+fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework"
 fi

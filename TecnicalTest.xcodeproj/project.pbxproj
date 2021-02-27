@@ -24,6 +24,8 @@
 		5D3DBA5925E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */; };
 		5D3DBA6825E9BB760083003A /* BreedInitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */; };
 		5D3DBA7025E9E2BF0083003A /* BreedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA6F25E9E2BF0083003A /* BreedViewModel.swift */; };
+		5D3DBAAF25E9F1D70083003A /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBAAE25E9F1D70083003A /* ExtensionViewController.swift */; };
+		5D3DBAC025E9F4E90083003A /* BreedRepositoryMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBABF25E9F4E90083003A /* BreedRepositoryMocks.swift */; };
 		8489AE5CCA7658D9ABE5BE9B /* Pods_TecnicalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB56DA835AE0B906BC43023 /* Pods_TecnicalTestTests.framework */; };
 		9082534FCB3AAAA11068AE2D /* Pods_TecnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D12D25F7C00EB43E28F00 /* Pods_TecnicalTest.framework */; };
 /* End PBXBuildFile section */
@@ -46,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018E597AECEC40ED6EDB67EB /* Pods-TecnicalTestTests.mocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTestTests.mocks.xcconfig"; path = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests.mocks.xcconfig"; sourceTree = "<group>"; };
 		071D12D25F7C00EB43E28F00 /* Pods_TecnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		144CE17DDEEE2FD41993D59D /* Pods-TecnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-TecnicalTest/Pods-TecnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
 		1A994ED7D80E0F7A05E30743 /* Pods-TecnicalTest-TecnicalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTest-TecnicalTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TecnicalTest-TecnicalTestUITests/Pods-TecnicalTest-TecnicalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24C5F64675FDAC7A02250B6D /* Pods-TecnicalTest-TecnicalTestUITests.mocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTest-TecnicalTestUITests.mocks.xcconfig"; path = "Target Support Files/Pods-TecnicalTest-TecnicalTestUITests/Pods-TecnicalTest-TecnicalTestUITests.mocks.xcconfig"; sourceTree = "<group>"; };
 		41159733496ED61CFC8FA0C4 /* Pods-TecnicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTest.release.xcconfig"; path = "Target Support Files/Pods-TecnicalTest/Pods-TecnicalTest.release.xcconfig"; sourceTree = "<group>"; };
 		5D3DB9CB25E9ABEC0083003A /* TecnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TecnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3DB9CE25E9ABEC0083003A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,10 +76,13 @@
 		5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRemoteRepositoryProtocol.swift; sourceTree = "<group>"; };
 		5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInitRepository.swift; sourceTree = "<group>"; };
 		5D3DBA6F25E9E2BF0083003A /* BreedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedViewModel.swift; sourceTree = "<group>"; };
+		5D3DBAAE25E9F1D70083003A /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		5D3DBABF25E9F4E90083003A /* BreedRepositoryMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRepositoryMocks.swift; sourceTree = "<group>"; };
 		6CB56DA835AE0B906BC43023 /* Pods_TecnicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFBC66FBC9421E193AF5A8 /* Pods_TecnicalTest_TecnicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTest_TecnicalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E7ABEAFF7FB21A09B0824 /* Pods-TecnicalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCF23942DBEFF5514F0DCC92 /* Pods-TecnicalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTestTests.release.xcconfig"; path = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7029C10CC78B26B4C899314 /* Pods-TecnicalTest.mocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTest.mocks.xcconfig"; path = "Target Support Files/Pods-TecnicalTest/Pods-TecnicalTest.mocks.xcconfig"; sourceTree = "<group>"; };
 		FBF01BD6AA36255C7D66A112 /* Pods-TecnicalTest-TecnicalTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTest-TecnicalTestUITests.release.xcconfig"; path = "Target Support Files/Pods-TecnicalTest-TecnicalTestUITests/Pods-TecnicalTest-TecnicalTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +123,9 @@
 				FBF01BD6AA36255C7D66A112 /* Pods-TecnicalTest-TecnicalTestUITests.release.xcconfig */,
 				846E7ABEAFF7FB21A09B0824 /* Pods-TecnicalTestTests.debug.xcconfig */,
 				BCF23942DBEFF5514F0DCC92 /* Pods-TecnicalTestTests.release.xcconfig */,
+				F7029C10CC78B26B4C899314 /* Pods-TecnicalTest.mocks.xcconfig */,
+				24C5F64675FDAC7A02250B6D /* Pods-TecnicalTest-TecnicalTestUITests.mocks.xcconfig */,
+				018E597AECEC40ED6EDB67EB /* Pods-TecnicalTestTests.mocks.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -147,7 +157,7 @@
 			children = (
 				5D3DB9D725E9ABED0083003A /* Assets.xcassets */,
 				5D3DBA1725E9B0B30083003A /* App */,
-				5D3DBA1C25E9B1180083003A /* Extension */,
+				5D3DBAAD25E9F1B90083003A /* Extension */,
 				5D3DBA1A25E9B0C60083003A /* Repository */,
 				5D3DBA1825E9B0B90083003A /* View */,
 				5D3DBA1B25E9B0EC0083003A /* ViewModel */,
@@ -220,13 +230,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		5D3DBA1C25E9B1180083003A /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		5D3DBA2D25E9B5550083003A /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,10 +243,35 @@
 		5D3DBA4F25E9B85E0083003A /* Breeds */ = {
 			isa = PBXGroup;
 			children = (
+				5D3DBABE25E9F4CD0083003A /* Mocks */,
+				5D3DBABD25E9F4C10083003A /* Remote */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		5D3DBAAD25E9F1B90083003A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DBAAE25E9F1D70083003A /* ExtensionViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5D3DBABD25E9F4C10083003A /* Remote */ = {
+			isa = PBXGroup;
+			children = (
 				5D3DBA5025E9B87B0083003A /* BreedRemoteRepository.swift */,
 				5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */,
 			);
-			path = Breeds;
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		5D3DBABE25E9F4CD0083003A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DBABF25E9F4E90083003A /* BreedRepositoryMocks.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		8D6E2B18109F7EFF4460DB64 /* Frameworks */ = {
@@ -495,6 +523,7 @@
 			files = (
 				5D3DBA2125E9B2130083003A /* Breed.swift in Sources */,
 				5D3DBA7025E9E2BF0083003A /* BreedViewModel.swift in Sources */,
+				5D3DBAC025E9F4E90083003A /* BreedRepositoryMocks.swift in Sources */,
 				5D3DBA6825E9BB760083003A /* BreedInitRepository.swift in Sources */,
 				5D3DBA3F25E9B5CF0083003A /* NetworkError.swift in Sources */,
 				5D3DBA5925E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift in Sources */,
@@ -504,6 +533,7 @@
 				5D3DBA4425E9B5F80083003A /* Constantes.swift in Sources */,
 				5D3DBA3A25E9B58A0083003A /* BaseRepositoryRemote.swift in Sources */,
 				5D3DB9D125E9ABEC0083003A /* SceneDelegate.swift in Sources */,
+				5D3DBAAF25E9F1D70083003A /* ExtensionViewController.swift in Sources */,
 				5D3DBA5125E9B87B0083003A /* BreedRemoteRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -795,6 +825,131 @@
 			};
 			name = Release;
 		};
+		5D3DBADF25E9FBA90083003A /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = MOCKS;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Mocks;
+		};
+		5D3DBAE025E9FBA90083003A /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7029C10CC78B26B4C899314 /* Pods-TecnicalTest.mocks.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WL7U6V8HX;
+				INFOPLIST_FILE = TecnicalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.TecnicalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Mocks;
+		};
+		5D3DBAE125E9FBA90083003A /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018E597AECEC40ED6EDB67EB /* Pods-TecnicalTestTests.mocks.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WL7U6V8HX;
+				INFOPLIST_FILE = TecnicalTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.TecnicalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TecnicalTest.app/TecnicalTest";
+			};
+			name = Mocks;
+		};
+		5D3DBAE225E9FBA90083003A /* Mocks */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C5F64675FDAC7A02250B6D /* Pods-TecnicalTest-TecnicalTestUITests.mocks.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WL7U6V8HX;
+				INFOPLIST_FILE = TecnicalTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.TecnicalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TecnicalTest;
+			};
+			name = Mocks;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -802,6 +957,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3DB9F325E9ABED0083003A /* Debug */,
+				5D3DBADF25E9FBA90083003A /* Mocks */,
 				5D3DB9F425E9ABED0083003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -811,6 +967,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3DB9F625E9ABED0083003A /* Debug */,
+				5D3DBAE025E9FBA90083003A /* Mocks */,
 				5D3DB9F725E9ABED0083003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -820,6 +977,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3DB9F925E9ABED0083003A /* Debug */,
+				5D3DBAE125E9FBA90083003A /* Mocks */,
 				5D3DB9FA25E9ABED0083003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -829,6 +987,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3DB9FC25E9ABED0083003A /* Debug */,
+				5D3DBAE225E9FBA90083003A /* Mocks */,
 				5D3DB9FD25E9ABED0083003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

@@ -19,7 +19,9 @@ class RepositoriesModule{
     
     private func registerDependencies() {
         #if MOCKS
-       
+        container.register(BreedRemoteRepositoryProtocol.self) { _ in
+            BreedRepositoryMocks()
+        }
         #else
         container.register(BreedRemoteRepositoryProtocol.self) { _ in
             BreedRemoteRepository()
