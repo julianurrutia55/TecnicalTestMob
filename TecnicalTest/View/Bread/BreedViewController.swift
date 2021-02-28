@@ -32,10 +32,12 @@ class BreedViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.red
+        breedViewModel.delegate = self
         configureNavigatorBar()
         configureSearchBar()
         setUpViews()
         setConstraints()
+        showLoading()
         breedViewModel.getDataListBreed()
     }
 
@@ -77,6 +79,24 @@ class BreedViewController: UIViewController{
 
 }
 
+//MARK: - ViewModel Delegate
+
+extension BreedViewController: BreedsViewModelDelegate {
+    func error() {
+        DispatchQueue.main.async {
+            print("error")
+            self.hideLoading()
+        }
+    }
+    
+    func reloadData() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+            self.hideLoading()
+        }
+    }
+}
+
 // MARK: - Extension de UITableViewDataSource
 extension BreedViewController: UITableViewDataSource {
     
@@ -85,7 +105,7 @@ extension BreedViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2;
+        return breedViewModel.breeds.count;
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -94,12 +114,12 @@ extension BreedViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idUserCell, for: indexPath) as? BreedTableViewCell
-        // add border and color
+       
         cell?.layer.borderColor = UIColor.gray.cgColor
         cell?.layer.borderWidth = 1
         cell?.layer.cornerRadius = 9
           
-        cell?.setDataCell()
+        cell?.setDataCell(breed: breedViewModel.breeds[indexPath.row])
         return cell!
     }
 }
@@ -108,7 +128,7 @@ extension BreedViewController: UITableViewDataSource {
 extension BreedViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let vc = BreedDetailViewController()
+        let vc = BreedDetailViewController(breed: breedViewModel.breeds[indexPath.row])
         navigationController?.pushViewController(vc, animated: true)
         tableView.deselectRow(at: indexPath, animated: true)
       

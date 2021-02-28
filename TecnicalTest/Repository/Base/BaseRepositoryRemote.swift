@@ -19,6 +19,11 @@ class BaseRepositoryRemote {
 
         request.dataTask(with: urlRequest) { (data,response, error) in
             
+            guard error == nil else {
+                   print ("error: \(error!)")
+                   return
+            }
+            
             guard let letData = data else {
                 completion(.failure(.parsingData))
                 return

@@ -24,10 +24,12 @@
 		5D3DBA5925E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */; };
 		5D3DBA6825E9BB760083003A /* BreedInitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */; };
 		5D3DBA7025E9E2BF0083003A /* BreedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBA6F25E9E2BF0083003A /* BreedViewModel.swift */; };
-		5D3DBAAF25E9F1D70083003A /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBAAE25E9F1D70083003A /* ExtensionViewController.swift */; };
+		5D3DBAAF25E9F1D70083003A /* ExtensionViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBAAE25E9F1D70083003A /* ExtensionViewControllerHelper.swift */; };
 		5D3DBAC025E9F4E90083003A /* BreedRepositoryMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBABF25E9F4E90083003A /* BreedRepositoryMocks.swift */; };
 		5D3DBB2525EADCDB0083003A /* BreedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBB2425EADCDB0083003A /* BreedTableViewCell.swift */; };
 		5D3DBB3225EB06CB0083003A /* BreedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBB3125EB06CB0083003A /* BreedDetailViewController.swift */; };
+		5D3DBB4925EB3A9B0083003A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBB4825EB3A9B0083003A /* Image.swift */; };
+		5D3DBB7125EBFB5B0083003A /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DBB7025EBFB5B0083003A /* Weight.swift */; };
 		8489AE5CCA7658D9ABE5BE9B /* Pods_TecnicalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB56DA835AE0B906BC43023 /* Pods_TecnicalTestTests.framework */; };
 		9082534FCB3AAAA11068AE2D /* Pods_TecnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D12D25F7C00EB43E28F00 /* Pods_TecnicalTest.framework */; };
 /* End PBXBuildFile section */
@@ -78,10 +80,12 @@
 		5D3DBA5825E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRemoteRepositoryProtocol.swift; sourceTree = "<group>"; };
 		5D3DBA6725E9BB760083003A /* BreedInitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInitRepository.swift; sourceTree = "<group>"; };
 		5D3DBA6F25E9E2BF0083003A /* BreedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedViewModel.swift; sourceTree = "<group>"; };
-		5D3DBAAE25E9F1D70083003A /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		5D3DBAAE25E9F1D70083003A /* ExtensionViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewControllerHelper.swift; sourceTree = "<group>"; };
 		5D3DBABF25E9F4E90083003A /* BreedRepositoryMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRepositoryMocks.swift; sourceTree = "<group>"; };
 		5D3DBB2425EADCDB0083003A /* BreedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewCell.swift; sourceTree = "<group>"; };
 		5D3DBB3125EB06CB0083003A /* BreedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailViewController.swift; sourceTree = "<group>"; };
+		5D3DBB4825EB3A9B0083003A /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		5D3DBB7025EBFB5B0083003A /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
 		6CB56DA835AE0B906BC43023 /* Pods_TecnicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFBC66FBC9421E193AF5A8 /* Pods_TecnicalTest_TecnicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TecnicalTest_TecnicalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E7ABEAFF7FB21A09B0824 /* Pods-TecnicalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TecnicalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-TecnicalTestTests/Pods-TecnicalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +165,7 @@
 			children = (
 				5D3DB9D725E9ABED0083003A /* Assets.xcassets */,
 				5D3DBA1725E9B0B30083003A /* App */,
-				5D3DBAAD25E9F1B90083003A /* Extension */,
+				5D3DBAAD25E9F1B90083003A /* HelperView */,
 				5D3DBA1A25E9B0C60083003A /* Repository */,
 				5D3DBA1825E9B0B90083003A /* View */,
 				5D3DBA1B25E9B0EC0083003A /* ViewModel */,
@@ -213,6 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				5D3DBA2025E9B2130083003A /* Breed.swift */,
+				5D3DBB4825EB3A9B0083003A /* Image.swift */,
+				5D3DBB7025EBFB5B0083003A /* Weight.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,12 +260,12 @@
 			path = Breeds;
 			sourceTree = "<group>";
 		};
-		5D3DBAAD25E9F1B90083003A /* Extension */ = {
+		5D3DBAAD25E9F1B90083003A /* HelperView */ = {
 			isa = PBXGroup;
 			children = (
-				5D3DBAAE25E9F1D70083003A /* ExtensionViewController.swift */,
+				5D3DBAAE25E9F1D70083003A /* ExtensionViewControllerHelper.swift */,
 			);
-			path = Extension;
+			path = HelperView;
 			sourceTree = "<group>";
 		};
 		5D3DBABD25E9F4C10083003A /* Remote */ = {
@@ -556,6 +562,7 @@
 				5D3DBA7025E9E2BF0083003A /* BreedViewModel.swift in Sources */,
 				5D3DBAC025E9F4E90083003A /* BreedRepositoryMocks.swift in Sources */,
 				5D3DBA6825E9BB760083003A /* BreedInitRepository.swift in Sources */,
+				5D3DBB4925EB3A9B0083003A /* Image.swift in Sources */,
 				5D3DBA3F25E9B5CF0083003A /* NetworkError.swift in Sources */,
 				5D3DBA5925E9B8B90083003A /* BreedRemoteRepositoryProtocol.swift in Sources */,
 				5D3DB9D325E9ABEC0083003A /* BreedViewController.swift in Sources */,
@@ -564,9 +571,10 @@
 				5D3DBA4425E9B5F80083003A /* Constantes.swift in Sources */,
 				5D3DBA3A25E9B58A0083003A /* BaseRepositoryRemote.swift in Sources */,
 				5D3DB9D125E9ABEC0083003A /* SceneDelegate.swift in Sources */,
-				5D3DBAAF25E9F1D70083003A /* ExtensionViewController.swift in Sources */,
+				5D3DBAAF25E9F1D70083003A /* ExtensionViewControllerHelper.swift in Sources */,
 				5D3DBB3225EB06CB0083003A /* BreedDetailViewController.swift in Sources */,
 				5D3DBA5125E9B87B0083003A /* BreedRemoteRepository.swift in Sources */,
+				5D3DBB7125EBFB5B0083003A /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

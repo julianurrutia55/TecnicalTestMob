@@ -7,11 +7,18 @@
 
 import Foundation
 
+protocol BreedsViewModelDelegate: class {
+    func reloadData()
+    func error()
+}
+
 class BreedViewModel {
     
     private var repositoryInit: BreedInitRepository
+    weak var delegate: BreedsViewModelDelegate?
     
-    private var breads:[Breed] = []
+    var breeds:[Breed] = []
+    var error: NetworkError?
     
     init(repositoryInit: BreedInitRepository) {
         self.repositoryInit = repositoryInit
@@ -19,12 +26,15 @@ class BreedViewModel {
     
     func getDataListBreed(){
         repositoryInit.getBreedList {[weak self] result in
+            guard let resultData = self else { return }
             switch result {
                 case .success(let breeds):
-                    print(breeds)
+                    resultData.breeds = breeds
+                    resultData.delegate?.reloadData()
                 break
             case .failure(let error):
-                print(error)
+                resultData.error = error
+                resultData.delegate?.error()
             }
             
             

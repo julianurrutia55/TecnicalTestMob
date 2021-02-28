@@ -8,6 +8,7 @@ target 'TecnicalTest' do
 
   # Pods for TecnicalTest
   pod 'Swinject'
+  pod 'Kingfisher'
 
   target 'TecnicalTestTests' do
     inherit! :search_paths
