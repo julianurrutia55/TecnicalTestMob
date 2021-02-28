@@ -12,11 +12,19 @@ class BreedViewController: UIViewController{
     private var tableView : UITableView!
     private let searchController = UISearchController(searchResultsController: nil)
     
+    private var isSearchBarEmpty: Bool {
+        return searchController.searchBar.text?.isEmpty ?? true
+    }
+    
+    private var isFiltering: Bool {
+        return searchController.isActive && !isSearchBarEmpty
+    }
+    
     private var breedViewModel: BreedViewModel
     private let searchPlaceHolder = "Buscar"
     private let titleNavigator = "CatBreeds"
-    private let myCountry = ["prueba 1", "prueba 2"]
     private let idUserCell = "userCell"
+    private let emptyListMessage = "La lista esta vacia"
     let cellSpacingHeight: CGFloat = 1
 
 
@@ -75,7 +83,13 @@ class BreedViewController: UIViewController{
         navigationItem.searchController = searchController
         definesPresentationContext = true
     }
-
+    
+    private func filterContentForSearchText(_ searchText: String) {
+        breedViewModel.breedFiltered = breedViewModel.breeds.filter { (breed: Breed) -> Bool in
+            return breed.name!.lowercased().contains(searchText.lowercased())
+          }
+        tableView.reloadData()
+    }
 
 }
 
@@ -105,7 +119,15 @@ extension BreedViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return breedViewModel.breeds.count;
+        
+        let count = !isFiltering ? breedViewModel.breeds.count : breedViewModel.breedFiltered.count
+        if count == 0 && isFiltering {
+            tableView.setEmptyMessage(emptyListMessage)
+        } else {
+            tableView.restore()
+        }
+        
+        return count;
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -118,8 +140,9 @@ extension BreedViewController: UITableViewDataSource {
         cell?.layer.borderColor = UIColor.gray.cgColor
         cell?.layer.borderWidth = 1
         cell?.layer.cornerRadius = 9
-          
-        cell?.setDataCell(breed: breedViewModel.breeds[indexPath.row])
+        
+        let breed = !isFiltering ? breedViewModel.breeds[indexPath.row] : breedViewModel.breedFiltered[indexPath.row]
+        cell?.setDataCell(breed: breed)
         return cell!
     }
 }
@@ -127,8 +150,8 @@ extension BreedViewController: UITableViewDataSource {
 // MARK: - Extension de UITableViewDelegate
 extension BreedViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        let vc = BreedDetailViewController(breed: breedViewModel.breeds[indexPath.row])
+        let breed = !isFiltering ? breedViewModel.breeds[indexPath.row] : breedViewModel.breedFiltered[indexPath.row]
+        let vc = BreedDetailViewController(breed: breed)
         navigationController?.pushViewController(vc, animated: true)
         tableView.deselectRow(at: indexPath, animated: true)
       
@@ -140,7 +163,7 @@ extension BreedViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
         if let searchText = searchBar.text {
-           // filterContentForSearchText(searchText)
+            filterContentForSearchText(searchText)
         }
     }
 }

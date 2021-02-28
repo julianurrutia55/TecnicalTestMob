@@ -165,7 +165,7 @@
 			children = (
 				5D3DB9D725E9ABED0083003A /* Assets.xcassets */,
 				5D3DBA1725E9B0B30083003A /* App */,
-				5D3DBAAD25E9F1B90083003A /* HelperView */,
+				5D3DBAAD25E9F1B90083003A /* ViewHelper */,
 				5D3DBA1A25E9B0C60083003A /* Repository */,
 				5D3DBA1825E9B0B90083003A /* View */,
 				5D3DBA1B25E9B0EC0083003A /* ViewModel */,
@@ -260,12 +260,12 @@
 			path = Breeds;
 			sourceTree = "<group>";
 		};
-		5D3DBAAD25E9F1B90083003A /* HelperView */ = {
+		5D3DBAAD25E9F1B90083003A /* ViewHelper */ = {
 			isa = PBXGroup;
 			children = (
 				5D3DBAAE25E9F1D70083003A /* ExtensionViewControllerHelper.swift */,
 			);
-			path = HelperView;
+			path = ViewHelper;
 			sourceTree = "<group>";
 		};
 		5D3DBABD25E9F4C10083003A /* Remote */ = {

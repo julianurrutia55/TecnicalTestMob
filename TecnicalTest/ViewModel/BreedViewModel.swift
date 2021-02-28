@@ -18,6 +18,7 @@ class BreedViewModel {
     weak var delegate: BreedsViewModelDelegate?
     
     var breeds:[Breed] = []
+    var breedFiltered: [Breed] = []
     var error: NetworkError?
     
     init(repositoryInit: BreedInitRepository) {
