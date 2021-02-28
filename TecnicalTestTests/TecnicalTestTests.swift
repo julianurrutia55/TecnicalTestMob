@@ -19,6 +19,7 @@ class TecnicalTestTests: XCTestCase {
     
     func testGetListOfBreedsSuccessResponse() {
         //Arrange
+        
         breedInitRepository.getBreedList { result in
             switch result {
             case .success(let breeds):
