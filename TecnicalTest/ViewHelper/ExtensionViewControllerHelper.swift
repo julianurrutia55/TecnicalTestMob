@@ -27,8 +27,8 @@ extension UIViewController {
         containerLoading = nil
     }
     
-    func alert(){
-        let alert = UIAlertController(title: "Alerta", message: "Error al cargar información", preferredStyle: .alert)
+    func alert(message: String){
+        let alert = UIAlertController(title: "Alerta", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
         self.present(alert, animated: true)
     }

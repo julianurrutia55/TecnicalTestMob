@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Network
 class BreedViewController: UIViewController{
 
     //views
@@ -26,7 +27,7 @@ class BreedViewController: UIViewController{
     private let idUserCell = "userCell"
     private let emptyListMessage = "La lista esta vacia"
     let cellSpacingHeight: CGFloat = 1
-
+    let networkMonitor = NWPathMonitor()
 
     init(breedViewModel: BreedViewModel) {
         self.breedViewModel = breedViewModel
@@ -46,9 +47,13 @@ class BreedViewController: UIViewController{
         setUpViews()
         setConstraints()
         showLoading()
-        breedViewModel.getDataListBreed()
+        loadData()
     }
 
+    private func loadData(){
+        self.breedViewModel.getDataListBreed()
+    }
+            
     private func setUpViews() {
         view.backgroundColor = UIColor.white
         tableView = UITableView()
@@ -98,7 +103,7 @@ extension BreedViewController: BreedsViewModelDelegate {
     func error() {
         DispatchQueue.main.async {
             self.hideLoading()
-            self.alert()
+            self.alert(message: "Error al cargar información")
         }
     }
     
