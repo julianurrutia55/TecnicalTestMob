@@ -90,7 +90,6 @@ class BreedViewController: UIViewController{
           }
         tableView.reloadData()
     }
-
 }
 
 //MARK: - ViewModel Delegate
@@ -98,8 +97,8 @@ class BreedViewController: UIViewController{
 extension BreedViewController: BreedsViewModelDelegate {
     func error() {
         DispatchQueue.main.async {
-            print("error")
             self.hideLoading()
+            self.alert()
         }
     }
     
